@@ -34,6 +34,9 @@ $(BIN): $(OBJ)
 run: $(BIN)
 	./$(BIN)
 
+test:
+	@echo "No unit tests implemented yet."
+
 clean:
 	rm -f $(OBJ) $(BIN)
 

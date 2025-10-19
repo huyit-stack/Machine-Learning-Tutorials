@@ -1,0 +1,15 @@
+# Build artifacts
+bin/
+build/
+*.o
+*.obj
+*.exe
+*.out
+
+# Data files generated at runtime
+/data/ranking.dat
+/data/game_save.dat
+
+# OS/editor
+.DS_Store
+.vscode/ipch/
